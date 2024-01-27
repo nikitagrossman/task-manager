@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="main-header d-flex justify-content-center">My task board</h1>
+        <div class="note-writer d-flex align-items-center justify-content-center">
+            <div class="content position-relative">
+                <input class="textInput" placeholder="task description"></input>
+                <input class="dateInput" type="date">
+                <input class="timeInput" type="time">
+                <button class="submitBtn" type="submit">Create task</button>
+                <button class="clearBtn">Clear board</button>
+            </div>
+        </div>
+    <div class="d-flex align-content-start flex-wrap notes">
+        <!-- all the notes will appear here... -->
+    </div>  
+    <script src="script.js"></script>
+</body>
+</html>

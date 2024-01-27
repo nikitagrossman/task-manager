@@ -1,0 +1,68 @@
+.main-header{
+    font-family: Cursive;
+    font-size: 80px;
+}
+body{
+    margin: 20px;
+}
+html,body{
+    background-image: url('background.jpeg');
+}
+.note-writer{
+    background-image: url('note-writer.jpeg');
+    height: 200px;
+    margin-top:30px; ;
+}
+.content{
+    margin-top: 10px;
+}
+.note{
+    position: relative;
+    background-image: url('note.png');
+    height: 260px;
+    width: 180px;
+    margin-right: 100px;
+    margin-top: 30px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.deleteBtn{
+    position: absolute;
+    visibility: hidden;
+    top: 25px;
+    right: 10px;;
+    size: 50px;
+}
+.note:hover  .deleteBtn {
+    visibility: visible;
+}
+.fadeIn{
+    animation: fadeIn 5s
+}
+.textWarper{
+    position: absolute;
+    overflow: scroll;
+    top: 40px;
+    left: 10px;
+    height: 165px;
+    width: 160px;
+    border-style: groove;
+    border-color: #0000003f ;
+    border-width: 1px;
+    border-radius: 4px;
+}
+.timeDateWarper{
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+
+}
+span{
+    display: block
+}
+.line-through{
+    text-decoration-line: line-through
+}
+
+
+  
