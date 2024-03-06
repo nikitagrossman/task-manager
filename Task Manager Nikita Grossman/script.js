@@ -66,13 +66,6 @@ document.addEventListener('DOMContentLoaded',function(){
                 deleteNote(note.noteId)
             })
 
-            const endTaskBtn = document.createElement('button')
-            endTaskBtn.classList.add('endTask')
-            warper.appendChild(endTaskBtn)
-            endTaskBtn.addEventListener('click',function(){
-                endTask(text,note.noteId)
-            })
-
             const textWarper = document.createElement('div')
             warper.appendChild(textWarper)
             textWarper.classList.add('textWarper')
